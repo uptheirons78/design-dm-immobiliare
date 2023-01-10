@@ -1,0 +1,75 @@
+/* === Hero Section === */
+.hero {
+  background: var(--color-cultured-2);
+  padding-block: var(--section-padding);
+}
+
+.hero-content {
+  margin-bottom: 60px;
+}
+
+.hero-subtitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle ion-icon {
+  color: var(--color-accent);
+}
+
+.hero-subtitle span {
+  color: var(--color-primary);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-700);
+}
+
+.hero-title {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  color: var(--color-cadet);
+  font-size: var(--fs-5);
+  line-height: 1.8;
+  padding-left: 15px;
+  border-left: 1px solid;
+  margin-bottom: 30px;
+}
+
+/* === Media Queries === */
+@media (min-width: 768px) {
+
+  .hero-content {
+    max-width: 400px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .hero-content {
+    max-width: unset;
+    margin-bottom: 0;
+  }
+
+  .hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .hero-text {
+    padding-left: 30px;
+    max-width: 450px;
+    margin-bottom: 40px;
+  }
+
+}

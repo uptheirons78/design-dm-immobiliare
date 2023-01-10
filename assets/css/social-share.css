@@ -1,0 +1,11 @@
+.social-share-title {
+  color: var(--color-primary);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-700);
+  padding-bottom: 0.5rem;
+}
+
+.social-share-icon-wrapper {
+  display: flex;
+  gap: 5px;
+}

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singola Proprietà | DM Immobiliare</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/lightbox.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@mdimmobiliare.eu" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>info@mdimmobiliare.eu</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="tel:+393313368982" class="header-top-link">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <span>+39 331 3368982</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <a href="#" class="header-top-btn">Proprietà</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-dm.png" alt="Homeverse logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo-dm.png" alt="Homeverse logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Home</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Acquista</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Vendi</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Servizi</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>Contatti</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+          <button class="header-bottom-actions-btn" aria-label="Cerca">
+            <ion-icon name="home-outline"></ion-icon>
+
+            <span>Cerca</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" aria-label="Contatti">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <span>Contatti</span>
+          </button>
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <!-- Single Property Layout -->
+    <section class="dm-single-layout">
+      <div class="container">
+        <!-- Single Property -->
+        <article class="layout-main-content single-property">
+          <!-- Property Header -->
+          <header class="sp-header">
+            <h1 class="sp-header-title">Villa unifamiliare via Lorenzo Perosi, Centro, Anguillara Sabazia</h1>
+            <h3 class="sp-header-price">€ 689.000</h3>
+            <ul class="sp-header-features">
+
+              <li class="sp-feature-item">
+                <strong>2</strong>
+                <ion-icon name="home-outline"></ion-icon>
+                <span>Locali</span>
+              </li>
+
+              <li class="sp-feature-item">
+                <strong>1</strong>
+
+                <ion-icon name="man-outline"></ion-icon>
+
+                <span>Bagno</span>
+              </li>
+
+              <li class="sp-feature-item">
+                <strong>55 m²</strong>
+
+                <ion-icon name="square-outline"></ion-icon>
+
+                <span>Superficie</span>
+              </li>
+
+              <li class="sp-feature-item">
+                <strong>R</strong>
+
+                <ion-icon name="footsteps-outline"></ion-icon>
+
+                <span>Piano</span>
+              </li>
+
+            </ul>
+          </header>
+          <!-- Property Thumbnail -->
+          <figure class="sp-banner">
+
+            <img src="./assets/images/property-example.jpg" alt="New Apartment Nice View" class="w-100">
+
+            <div class="banner-actions">
+
+              <button class="banner-actions-btn">
+                <ion-icon name="location"></ion-icon>
+
+                <address>Via Lorenzo Perosi, Anguillara Sabazia (RM)</address>
+              </button>
+
+              <button class="banner-actions-btn" onclick="lightbox.start($('#gallery-img-1')); return false;">
+                <ion-icon name="camera"></ion-icon>
+
+                <span>9</span>
+              </button>
+
+            </div>
+
+          </figure>
+          <!-- Property Description -->
+          <div class="sp-section sp-description">
+            <h2 class="sp-section-title">Descrizione</h2>
+            <div class="sp-section-content">
+              <p>La DMimmobiliare in Collaborazione con “Leo l’amico geniale” propone ad Anguillara Sabazia nella zona residenziale di Poggio dei pini, incantevole Villa unifamiliare con rifiniture di pregio.</p>
+              <p>La Villa è disposta su 3 livelli facilmente divisibili in più unità abitative indipendenti tra loro.</p>
+              <p>Al piano terra entriamo in un ampio salone di rappresentanza con camino, cucina in muratura con camino da dove si accede
+                al portico, 3 camere da letto con bagno, ulteriore bagno e ripostiglio.</p>
+              <p>Tramite scala in marmo lavorato si accede al primo piano così composto: ampio disimpegno, camera con bagno, cameretta ed
+              ampio terrazzo.</p>
+              <p>Al piano seminterrato con entrata indipendente troviamo salone doppio con angolo cottura, camera, lavanderia bagno e
+              ripostiglio.</p>
+              <p>Completa la proprietà uno splendido giardino, depandance e posti auto coperti.</p>
+              <p>L’immobile ha tutti i comfort quali infissi in legno doppio vetro, zanzariere, grate, allarme, condizionatori, doppia
+              caldaia per l’eventuale divisione dell’immobile.</p>
+            </div>
+          </div>
+          <!-- Property Features -->
+          <div class="sp-section sp-features">
+            <h2 class="sp-section-title">Caratteristiche</h2>
+            <dl class="sp-features-list">
+              <dt class="sp-feature-title">Riferimento e data annuncio</dt>
+              <dd class="sp-feature-value">V14 - 27/10/2022</dd>
+              <dt class="sp-feature-title">Contratto</dt>
+              <dd class="sp-feature-value">Vendita</dd>
+              <dt class="sp-feature-title">Tipologia</dt>
+              <dd class="sp-feature-value">Villa unifamiliare | Intera proprietà | Classe immobile signorile</dd>
+              <dt class="sp-feature-title">Superficie</dt>
+              <dd class="sp-feature-value">400 m²</dd>
+              <dt class="sp-feature-title">Locali</dt>
+              <dd class="sp-feature-value">5+ (6 camere da letto, 3 altri), 3+ bagni, cucina abitabile</dd>
+              <dt class="sp-feature-title">Piano</dt>
+              <dd class="sp-feature-value">1 piano: 1°, con accesso disabili</dd>
+              <dt class="sp-feature-title">Totale Piani Edificio</dt>
+              <dd class="sp-feature-value">3 piani</dd>
+              <dt class="sp-feature-title">Posti Auto</dt>
+              <dd class="sp-feature-value">5</dd>
+              <dt class="sp-feature-title">Altre Caratteristiche</dt>
+              <dd class="sp-feature-value">
+                <span class="sp-feature-tag">Cancello elettrico</span>
+                <span class="sp-feature-tag">Caminetto</span>
+                <span class="sp-feature-tag">Taverna</span>
+                <span class="sp-feature-tag">Fibra Ottica</span>
+                <span class="sp-feature-tag">Videocitofono</span>
+                <span class="sp-feature-tag">Impianto di allarme</span>
+                <span class="sp-feature-tag">Porta Blindata</span>
+              </dd>
+            </dl>
+          </div>
+          <!-- Property Prices -->
+          <div class="sp-section sp-prices">
+            <h2 class="sp-section-title">Costi</h2>
+            <dl class="sp-features-list">
+              <dt class="sp-feature-title">Prezzo</dt>
+              <dd class="sp-feature-value">€ 689.0000</dd>
+              <dt class="sp-feature-title">Spese di condominio</dt>
+              <dd class="sp-feature-value">Nessuna spesa condominiale</dd>
+            </dl>
+          </div>
+          <!-- Property Efficiency -->
+          <div class="sp-section sp-efficiency">
+            <h2 class="sp-section-title">Efficienza Energetica</h2>
+            <dl class="sp-features-list">
+              <dt class="sp-feature-title">Stato</dt>
+              <dd class="sp-feature-value">Buono / Affidabile</dd>
+              <dt class="sp-feature-title">Riscaldamento</dt>
+              <dd class="sp-feature-value">Autonomo, a radiatori, alimentato a gas</dd>
+              <dt class="sp-feature-title">Climatizzatore</dt>
+              <dd class="sp-feature-value">Autonomo, freddo/caldo</dd>
+              <dt class="sp-feature-title">Efficienza Energetica</dt>
+              <dd class="sp-feature-value"><span class="sp-efficiency-class">F</span> ≥ 175 kWh/m² anno</dd>
+            </dl>
+          </div>
+          <!-- Property Image Gallery -->
+          <div class="sp-section sp-image-gallery">
+            <h2 class="sp-section-title">Galleria Immagini</h2>
+            <div class="masonry-grid">
+              <a id="gallery-img-1" href="./assets/images/casa-1.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Esterno">
+                <img src="./assets/images/casa-1.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-2.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Esterno">
+                <img src="./assets/images/casa-2.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-3.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Image Title">
+                <img src="./assets/images/casa-3.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-4.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Image Title">
+                <img src="./assets/images/casa-4.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-5.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Image Title">
+                <img src="./assets/images/casa-5.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-6.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Image Title">
+                <img src="./assets/images/casa-6.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-7.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Image Title">
+                <img src="./assets/images/casa-7.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-8.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Image Title">
+                <img src="./assets/images/casa-8.jpg" alt="">
+              </a>
+              <a href="./assets/images/casa-9.jpg" class="grid-image" data-lightbox="lorenzo-perosi-anguillare" data-title="Image Title">
+                <img src="./assets/images/casa-9.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <!-- Property Map -->
+          <div class="sp-section sp-map">
+            <h2 class="sp-section-title">Mappa</h2>
+            <div class="sp-map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1480.5178999968907!2d12.28696555825038!3d42.085282485398565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f45083c2aa495%3A0xc428c446c546a3fe!2sVia%20Lorenzo%20Perosi%2C%2000061%20Anguillara%20Sabazia%20RM!5e0!3m2!1sit!2sit!4v1670919206120!5m2!1sit!2sit"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+        </article>
+        <!-- Aside -->
+        <aside class="layout-aside aside">
+          <div class="aside-container">
+            <div class="aside-card">
+              <h2>Sei interessato a questo immobile?</h2>
+              <p>Siamo sempre a tua disposizione. Chiama o scrivi una mail per avere un appuntamento il prima possibile.</p>
+              <a class="btn" href="#">Richiedi informazioni</a>
+            </div>
+          </div>
+          <div class="aside-container recent-posts">
+            <h3 class="aside-title">Articoli Recenti</h3>
+            <ul class="aside-list">
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Riscaldamento a gas: come impostare gli impianti di casa</a></li>
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Roma Nord: i nuovi interventi strutturali in zona</a></li>
+              <li class="aside-list-item"><a class="aside-list-link" href="#">IMU e coniugi in case diverse: come funziona ?</a></li>
+            </ul>
+          </div>
+          <div class="aside-container">
+            <div class="aside-card aside-sticky-card">
+              <h2>Sai quanto vale la tua abitazione?</h2>
+              <p>Ottieni una valutazione gratuita ed immediata dai nostri agenti.</p>
+              <a class="btn" href="#">Richiedi una valutazione</a>
+            </div>
+          </div>
+          <div class="aside-container recent-properties">
+            <h3 class="aside-title">Appartamenti in vendita</h3>
+            <ul class="aside-list">
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Bilocale Cassia - La Storta a Roma</a></li>
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Bilocale Zona Pisana - Bravetta a Roma</a></li>
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Trilocale Zona Cassia - La Storta a Roma</a></li>
+            </ul>
+          </div>
+          <div class="aside-container recent-properties">
+            <h3 class="aside-title">I Nostri Contatti</h3>
+            <ul class="aside-list">
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Indirizzo: Via Cassia n. 1777, Roma</a></li>
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Telefono: +39 331 3368982</a></li>
+              <li class="aside-list-item"><a class="aside-list-link" href="#">Email: info@dmimmobiliare.eu</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+
+        <div class="cta-card">
+          <div class="card-content">
+            <h2 class="h2 card-title">Cerchi la casa dei tuoi sogni ?</h2>
+
+            <p class="card-text">Possiamo aiutarti a realizzare i tuoi sogni e trovare la tua nuova abitazione</p>
+          </div>
+
+          <a class="btn cta-btn">
+            <span>Case in vendita</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo-dm.png" alt="Homeverse logo">
+            </a>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the
+              printing.
+            </p>
+
+            <ul class="contact-list">
+
+              <li>
+                <a href="#" class="contact-link">
+                  <ion-icon name="location-outline"></ion-icon>
+
+                  <address>Via Cassia n. 1777, 00123 Roma</address>
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+393313368982" class="contact-link">
+                  <ion-icon name="call-outline"></ion-icon>
+
+                  <span>+39 331 3368982</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:info@dmimmobiliare.eu" class="contact-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+
+                  <span>info@dmimmobiliare.eu</span>
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-link-box">
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Agenzia</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Chi Siamo</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Immobili</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Blog</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Contatti</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Servizi</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Vendita</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Locazione</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Acquisti</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Ristrutturazioni</a>
+              </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+              <li>
+                <p class="footer-list-title">Customer Care</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Cookie Policy</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Termini e condizioni</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link">Preferenze Privacy</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+
+          <p class="copyright">
+            &copy; 2022 <a href="#">DM Immobiliare</a>. Tutti i diritti riservati
+          </p>
+
+        </div>
+      </div>
+
+    </footer>
+
+
+  </main>
+
+  <!-- Javascript Files -->
+  <script src="./assets/js/lightbox-plus-jquery.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

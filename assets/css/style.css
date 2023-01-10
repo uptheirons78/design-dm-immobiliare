@@ -1,0 +1,19 @@
+@import url('./fonts.css');
+@import url('./variables.css');
+@import url('./reset.css');
+@import url('./utility.css');
+@import url('./header.css');
+@import url('./hero-section.css');
+@import url('./about-section.css');
+@import url('./services-section.css');
+@import url('./listing-section.css');
+@import url('./features-section.css');
+@import url('./blog-section.css');
+@import url('./cta.css');
+@import url('./footer.css');
+@import url('./single.css');
+@import url('./social-share.css');
+@import url('./aside.css');
+@import url('./blog-page.css');
+@import url('./property.css');
+
